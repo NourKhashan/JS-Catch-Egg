@@ -1,0 +1,83 @@
+<html>
+    
+    <!-- Head -->
+    <head>
+        <link type="text/css" rel="stylesheet" href="../CSS/game.css"/>
+    </head>
+    
+    <!-- Body -->
+    <body>
+    
+        <!-- Mode -->
+        <div id="MainPage">
+            <input type="button" value="Easy"/>
+            <input type="button" value="Normal"/>
+
+
+        </div>
+        <!--  Login  -->
+        <div id="userInputName" class="showHideConfirm">
+            <input type="text" id="userNameLogin" placeholder="Enter your name...">
+            <input type="button" id="btnlogin" value="LOGIN">
+
+        </div>
+        
+        <!--  Game  -->
+        <div id="gamePage" class="showHideConfirm">
+            <div  id="userName"><span></span></div>
+            <div  id="timerDiv"><span id="timer"></span> </div>
+            <div  id="userScore"><span>0</span></div>
+            <img id="logo" src="../Images/logo.png"/>
+            <img id="pause" src="../Images/pause.png" class="showHideConfirm"/>
+            <button id="reset">Reset</button>
+            <button id="start">Start</button>
+            
+            <div id="egg1"></div> 
+            <div id="egg2"></div>
+            <div id="egg3"></div>
+
+            <img  id='imgBroken' class="showHide" src='../Images/broken.png'/>
+            
+            <img id="basket" src="../Images/basket.png" style="position:absolute; top:85%; left:300px ;width:100; height:100;"/>
+        </div>
+        
+        
+        <!--  Pause  -->
+        <div class='showHideConfirm' id="pauseResumeDiv">
+            <div id="popupPause">
+                <button class='btn' id='resume'>RESUME</button>
+                <br>
+                <button class='btn playAgain'>PLAY AGAIN</button>
+                <br>
+                <button class='btn home'>HOME</button>
+                <br>
+            </div>      
+        </div>
+        
+        
+        <!--  Confirm  -->
+        <div class='showHideConfirm' id="confirm">
+            <div id="popupConfirm">
+                <p id="gameOver">GAME OVER</p>
+                <p id="userNameConfirm" style='margin: 25px;'> userName </p>
+                <p id="score">Score: <span>vvv</span></p>
+                <button class='btn playAgain'>PLAY AGAIN</button>
+                <br>
+                <button class='btn home'>HOME</button>
+                <br>
+            </div>      
+        </div>
+        
+        
+        
+     
+        <!-- Scripts  -->
+        <script src="../JS/jquery-3.3.1.js"></script>
+        <script src="../JS/basket.js"></script>
+        <script src="../JS/Game.js"></script>
+        
+
+    </body>
+
+
+</html>

@@ -1,0 +1,224 @@
+#MainPage,
+#userInputName,
+#gamePage {
+
+    width: 100%;
+    height: 100%;
+    background-image: url(../Images/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#MainPage input[type=button] {
+    display: block;
+    margin: auto;
+    position: relative;
+    top: 60%;
+    margin-bottom: 20px;
+    width: 150px;
+    height: 40px;
+    background-color: saddlebrown;
+    color: wheat;
+    font-size: 20px;
+}
+
+#userInputName input {
+
+    display: block;
+    margin: auto;
+    position: relative;
+    top: 55%;
+    margin-bottom: 20px;
+    width: 150px;
+    height: 40px;
+    background-color: saddlebrown;
+    color: wheat;
+
+}
+
+#userInputName input[type=text] {
+    width: 200px;
+    height: 40px;
+    top: 55%;
+    background-color: white;
+    color: grey;
+}
+
+#gamePage {
+    background-image: url(../Images/Chicken-Game.jpg);
+}
+
+
+#logo {
+    width: 150px;
+    height: 150px;
+    margin-left: 350px;
+    margin-top: 40px;
+    position: fixed;
+
+
+}
+
+#userName,
+#timerDiv,
+#userScore {
+    background-color: sienna;
+    width: 100px;
+    height: 40px;
+    top: 9px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: whitesmoke;
+    font-size: 25px;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+
+}
+
+#userName {
+    left: 6;
+}
+
+#timerDiv {
+    right: 6;
+
+}
+
+#userScore {
+    left: 6;
+    top: 50px;
+}
+
+#start, #reset {
+    background-color: sienna;
+    width: 100px;
+    height: 40px;
+    right: 6;
+    top: 90%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: whitesmoke;
+    font-size: 25px;
+    position: fixed;
+
+}
+
+#reset{
+    
+    top: 50%;
+}
+
+
+
+#imgBroken {
+    top:92%;
+    position: absolute;
+    width: 35;
+    height: 35;
+
+
+}
+
+.showHide {
+    display: none;
+}
+
+/*Confirm Div*/
+#confirm,
+#pauseResumeDiv {
+    border: 3px solid black;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+/*End Confirm Div*/
+
+
+#popupConfirm,
+#popupPause {
+
+    background:sienna;
+    padding: 10px;
+    border: 3px solid rgba(241, 196, 15, 1.0);;
+    position: absolute;
+    box-shadow: 9px 10px 10px sienna;
+    border-radius: 25px;
+    height: 420px;
+    margin: 8% 38%;
+}
+
+#popupPause {
+    margin: 15% 38%;
+    height: 220px;
+
+}
+
+#gameOver {
+    border: 6px solid sienna;
+    width: 290;
+    height: 90;
+    text-align: center;
+    padding-top: 10;
+    border-radius: 10px;
+    color:rgba(241, 196, 15, 1.0);;
+    margin: 30 auto;
+    background-color: sienna;
+    font-size: 50;
+}
+
+
+
+.btn {
+    background: transparent;
+    color: rgba(241, 196, 15, 1.0);
+    font-weight: bold;
+    padding: 15px 60px;
+    border-radius: 6px;
+    border: 3px solid rgba(241, 196, 15, 1.0);
+    transition: all 0.3s ease-out;
+    margin: 7 7;
+    width: 350px;
+
+}
+
+
+#score,
+#userNameConfirm {
+    text-align: center;
+    color:rgba(241, 196, 15, 1.0);;
+    font-weight: bold;
+    font-size: 20;
+
+}
+
+/*Score*/
+
+/*Toggle*/
+.btnColor {
+    background: rgba(241, 196, 15, 1.0);
+    color: black;
+    cursor: pointer;
+}
+
+
+.showHideConfirm {
+    display: none;
+}
+
+
+/*Pause*/
+#pause {
+    position: relative;
+    width: 50px;
+    height: 30px;
+    left: 50%;
+}
+
+
+
